@@ -8,6 +8,27 @@ A Terminal User Interface (TUI) Git Status Tool written in Rust.
 - Fast and lightweight
 - Cross-platform support (macOS and Linux)
 
+## Demo
+
+```
+┌─ Git Status ──────────────────────────────────────────────┐
+│                                                            │
+│  Changes to be committed:                                  │
+│  ┌─ Modified ───────────────────────────────────────────┐ │
+│  │  src/main.rs                                         │ │
+│  │  README.md                                           │ │
+│  └──────────────────────────────────────────────────────┘ │
+│                                                            │
+│  Untracked files:                                         │
+│  ┌─ New ───────────────────────────────────────────────┐ │
+│  │  .gitignore                                         │ │
+│  │  Cargo.toml                                         │ │
+│  └──────────────────────────────────────────────────────┘ │
+│                                                            │
+│  Press 'q' to quit                                       │
+└──────────────────────────────────────────────────────────┘
+```
+
 ## Installation
 
 ### Homebrew
